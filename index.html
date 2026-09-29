@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои ссылки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+        .link-btn {
+            display: block;
+            background-color: #9146FF; /* Фирменный цвет Twitch */
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .link-btn:hover {
+            background-color: #772CE8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Замените ссылку ниже на URL вашей аватарки -->
+        <img src="https://via.placeholder.com/100" alt="Аватар" class="profile-pic">
+        <h1>Ваш Ник</h1>
+        <p>Добро пожаловать на мою страницу со ссылками!</p>
+        
+        <!-- Здесь добавляйте свои ссылки. Просто меняйте href и текст -->
+        <a href="https://twitch.tv/ваш_канал" class="link-btn" target="_blank">Мой Twitch</a>
+        <a href="https://youtube.com/@ваш_канал" class="link-btn" target="_blank">YouTube</a>
+        <a href="https://t.me/ваш_канал" class="link-btn" target="_blank">Telegram</a>
+    </div>
+</body>
+</html>
